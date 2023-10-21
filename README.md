@@ -1,2 +1,2 @@
 # Data_science
-Bangaluru hose price
+Bangaluru house price

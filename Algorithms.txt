@@ -1,0 +1,25 @@
+1. Regression
+2. Classification
+3. USV
+
+Regression
+1. Linear Regression: plot a line using data.
+2. Decision Tree: use data like a tree.
+3. Random Forest: reduce overfitting using more trees. the prediction will be all tree prediction average. (parallel way of learning)
+4. ADA boost:  (sequential learning)
+5. Gradient Boost:
+6. XGB regression
+
+
+Classifier:
+1. Logistic Regression: (Predict probabilities)
+2. KNearest Neighbor: Use neighbor
+3. SVN: Drow line between y values.
+4. XGB classifier: it is based on gradient boosting
+
+Unsupervised Learning:
+1. K-means clustering: 
+2. Collaborative filtering: 
+
+
+Data Balancing:

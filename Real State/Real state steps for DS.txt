@@ -1,0 +1,15 @@
+Steps to do in Real State DS:
+1. Data Cleaning
+2. Outlire Detection
+3. Feature Engineering
+4. model building
+
+
+import pandas as pd
+import numpy as np
+from matplotlib import pyplot as plt
+%matplotlib inline
+import matplotlib
+matplotlib.rcParams["figure.figsize"] = (20,10)
+
+

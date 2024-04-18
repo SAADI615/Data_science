@@ -1,0 +1,30 @@
+OVERSAMPLING
+
+1. APAAC - RandomForestClassifier(n_estimators = 200, max_depth = 10) - 0.74
+2. CKSAAGP - RandomForestClassifier(n_estimators = 200, max_depth = 10) - 0.72
+3. CTDC - XGBClassifier(n_estimators = 200,max_depth = 10, learning_rate = 0.1) - 0.73
+4. DDE - XGBClassifier(n_estimators = 200,max_depth = 10, learning_rate = 0.1) - 0.70
+5. DiastancePair - XGBClassifier(n_estimators = 200,max_depth = 10, learning_rate = 0.1) - 0.729
+6. Doc2Vec - RandomForestClassifier(n_estimators = 200, max_depth = 10) - 0.75
+7. EAAC - RandomForestClassifier(n_estimators = 200, max_depth = 10) - 0.784
+8. FastText - RandomForestClassifier(n_estimators = 200, max_depth = 10) - 0.73
+9. GDPC - XGBClassifier(n_estimators = 200,max_depth = 10, learning_rate = 0.1) - 0.73
+10. Greay - RandomForestClassifier(n_estimators = 200, max_depth = 10) - 0.73
+11. GTPC - LGBMClassifier(learning_rate = 0.1,max_depth = 10,random_state = 50) - 0.728
+12. KSCTriad - random - 0.70
+13. NMBroto - xgb - 0.70
+14. PAAC - xgb - 0.75
+15. Word2Vec - random - 0.54
+16. LSA - random - 0.82
+
+
+top feacure-
+1. lsa 82%
+2. eaac 78%
+3. doc2vec 75%
+4. apaac 74%
+5. ctdc, fasttext,gdpc 73%
+
+
+pca
+mutual info random xgbboos classifire

@@ -1,0 +1,16 @@
+,Classifier,Accuracy,mcc,Kappa,precision,recall,f1,sensitivity,specificity
+0,"RandomForestClassifier(max_depth=10, n_estimators=200)",0.6178535606820461,-0.031225261384123383,-0.018539026071008102,0.2982456140350877,0.04748603351955307,0.0819277108433735,0.9374021909233177,0.04748603351955307
+1,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=10, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=200, n_jobs=None,
+              num_parallel_tree=None, random_state=None, ...)",0.5827482447342026,-0.008772224798341345,-0.008049776395100183,0.35051546391752575,0.18994413407821228,0.2463768115942029,0.8028169014084507,0.18994413407821228
+2,"LGBMClassifier(max_depth=10, random_state=50)",0.5626880641925778,-0.051484036562811496,-0.047925325207563985,0.3106796116504854,0.1787709497206704,0.22695035460992907,0.7777777777777778,0.1787709497206704
+3,"GradientBoostingClassifier(learning_rate=0.5, n_estimators=200, random_state=50)",0.5667001003009027,0.0036185812754469244,0.003539749302461148,0.3619402985074627,0.2709497206703911,0.3099041533546326,0.7323943661971831,0.2709497206703911
+4,"AdaBoostClassifier(learning_rate=0.1, n_estimators=200, random_state=50)",0.6268806419257773,0.021420173174465963,0.013695570081428854,0.39705882352941174,0.07541899441340782,0.1267605633802817,0.9358372456964006,0.07541899441340782
